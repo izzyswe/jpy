@@ -23,3 +23,6 @@ def Override(func):
             )
         return func(*args, **kwargs)  # Call the original method
     return wrapped_method
+
+def interface():
+    pass
